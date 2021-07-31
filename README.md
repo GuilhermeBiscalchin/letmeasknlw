@@ -1,3 +1,19 @@
+------- PROJETO FEITO NO NLW 6 -----
+
+✨ Tecnologias Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+React TypeScript CSS
+
+Com utilização do FireBase como autenticação e banco de dados.
+
+Serviço online: https://teste-gap.web.app/
+
+💻 Projeto É uma aplicação, de criação de salas, onde pode ser feito perguntas, onde consegue marcar perguntas com destaque, curtir com o botão de like e o administrador da sala pode marcar como respondida a pergunta e excluir a mesma ou encerrar a sala aberta.
+
+🚀 Como executar Clone o repositório Instale as dependências com yarn Inicie o servidor com yarn dev Agora você pode acessar localhost:3000 do seu navegador.
+
+=========================================================================================================================================================================
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
