@@ -10,6 +10,7 @@ import { useAuth } from '../hooks/useAuth';
 import { useRoom } from '../hooks/useRoom';
 import { database } from '../services/firebase';
 
+
 import '../style/room.css';
 
 
@@ -65,7 +66,14 @@ export function Room() {
     <div id="page-room">
       <header>
         <div className="content">
-          <Link to='/'><img src={logoImg} alt="Letmeask" /></Link>
+          <img src={logoImg} alt="Letmeask" />
+          <nav >
+            <ul className = "navegacao">
+            <Link to='/'><li>Home</li></Link>
+              <li>Salas Disponível</li>
+              <Link to = '/admin/rooms/-Md7IW1vTWXZnDpWFcJQ'><li>Sala Administrador</li></Link>
+              </ul>
+              </nav>
           <RoomCode code={roomId} />
         </div>
       </header>

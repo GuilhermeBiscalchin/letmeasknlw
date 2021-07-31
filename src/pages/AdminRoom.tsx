@@ -57,6 +57,14 @@ export function AdminRoom() {
       <header>
         <div className="content">
           <Link to='/'><img  src={logoImg}  alt="Letmeask" /></Link>
+          <nav >
+            <ul className = "navegacao">
+            <Link to='/rooms/-Md7IW1vTWXZnDpWFcJQ'><li>Sala Perguntas</li></Link>
+              <li>Salas Disponível</li>
+              <Link to = '/admin/rooms/-Md7IW1vTWXZnDpWFcJQ'><li>Sala Administrador</li></Link>
+              </ul>
+              </nav>
+
           <div className="botao-encerrar">
             <RoomCode code={roomId} />
             <Button className="botao-admin" isOutlined onClick={handleEndRoom}>Encerrar sala</Button>

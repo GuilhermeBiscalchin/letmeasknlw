@@ -141,3 +141,10 @@ form .form-footer{
     color: #835afd;
     height: 40px;
 }
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
